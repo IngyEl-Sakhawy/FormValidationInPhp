@@ -114,7 +114,7 @@ if($Flag == 0)
             </div>
             <div class="row">
                 <label class="required" for="message">Your message:</label><br />
-                <textarea id="message" class="input" name="message" value="<?php echo isset($_POST['message']) ? htmlspecialchars($_POST['message']) : '';?>" rows="7" cols="30"></textarea><br />
+                <textarea id="message" class="input" name="message"  rows="7" cols="30"><?php echo isset($_POST['message']) ? htmlspecialchars($_POST['message']) : '';?></textarea><br />
 
             </div>
 

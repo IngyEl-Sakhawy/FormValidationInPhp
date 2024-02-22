@@ -12,7 +12,7 @@ Clone the repository to your local machine:
 
 ### bash
 Copy code
-git clone https://github.com/your-username/dynamic-php-contact-form.git
+git clone [https://github.com/IngyEl-Sakhawy/FormValidationInPhp.git]
 Configure the form settings in the config.php file. You can set maximum lengths for name and message, and define the thank you message.
 
 Upload the files to your web server.
